@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri&display=swap');
+
+* {
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.container {
+  position: absolute;
+  width: 80vw;
+  height: 91vh;
+  background-color: #CCD1D1;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  overflow-y: auto;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+  }
+}
+
+.title {
+  position: relative;
+  background-color: rgba(0, 0, 0, 1);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  font-size: 1.8em;
+  font-family: 'Hind Siliguri', sans-serif;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.question {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.questionBox {
+  position: relative;
+  background-color: #E5E8E8;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.answerBtnCommon {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  outline: none;
+  border: none;
+  font-size: 1em;
+  font-family: 'Hind Siliguri', sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.answerBtn {
+  @extend .answerBtnCommon;
+  background-color: #138D75;
+  
+  &:hover {
+    background-color: #117A65; 
+  }
+}
+
+.answerBtn_selected {
+  @extend .answerBtnCommon;
+  background-color: #A6ACAF;
+  transition: 1s;
+  
+  &:hover {
+    background-color: #BFC9CA; 
+  }
+}
+
+.score-board {
+  position: relative;
+}
+
+.score {
+  font-size: 2em;
+  padding: 10%;
+  text-align: center;
+}
+
+.playAgain {
+  position: relative;
+  text-align: center;
+}
+
+.playBtn {
+  width: 150px;
+  padding: 10px;
+  top: 350px;
+  left: 0px;
+  right: 0px;
+  font-size: 1.4em;
+  color: #F8F9F9;
+  background-color:#196F3D;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  
+  &:hover {
+    background-color:#117A65;
+  }
+}
+
+.footer {
+  text-align: center;
+}
