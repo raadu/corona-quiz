@@ -10,7 +10,6 @@ const App = () => {
   const [questionBank, setQuestionBank] = useState([]);
   const [score, setScore] = useState(0);
   const [responses, setResponses] = useState(0);
-  console.log(questionBank);
 
   //Load questions from the service
   const getQuestions = () => {
