@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ab8983038c181e32338336ca16d924a9",
+    "revision": "aca28fe1c03d532704a57c8d93872449",
     "url": "/corona-quiz/index.html"
   },
   {
-    "revision": "3085cef02f15d00bfa13",
-    "url": "/corona-quiz/static/css/main.2f7f6b03.chunk.css"
+    "revision": "0b83dd21b0ed0ac783de",
+    "url": "/corona-quiz/static/css/main.6c7a42a6.chunk.css"
   },
   {
     "revision": "a160a5d0c8962a1ade9d",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/corona-quiz/static/js/2.5869807f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3085cef02f15d00bfa13",
-    "url": "/corona-quiz/static/js/main.d7275c60.chunk.js"
+    "revision": "0b83dd21b0ed0ac783de",
+    "url": "/corona-quiz/static/js/main.9f0ab135.chunk.js"
   },
   {
     "revision": "0c4461d1b22a2109cff1",
